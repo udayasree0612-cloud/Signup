@@ -1,6 +1,6 @@
 
 let users = [
-    // Example: { userName: "Alice", password: "password123" }
+
 ];
 
 function signup(userName, password) {
@@ -24,8 +24,8 @@ function login(userName, password) {
     }
 }
 
-// Example usage
-console.log(signup("Bob", "pass123"));     // Signup Successful, Please Login
-console.log(login("Bob", "pass123"));      // Login Successful
-console.log(login("Bob", "wrongpass"));    // Wrong Password
-console.log(login("Tom", "pass123"));      // User Not Found, Please Signup
+
+console.log(signup("Bob", "pass123"));     
+console.log(login("Bob", "pass123"));     
+console.log(login("Bob", "wrongpass"));    
+console.log(login("Tom", "pass123"));      
